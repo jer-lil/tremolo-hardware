@@ -1,0 +1,9 @@
+Replace Part C18 CAP ELEC 100uF in E:\GitHub\Tremolo\Altium\Power.SchDoc with CAP ELEC 100uF from Parts.SchLib
+Replace Part C19 C0805 in E:\GitHub\Tremolo\Altium\Power.SchDoc with C0805 from KEMET Chip Capacitor.IntLib
+Replace Part C20 C0805 in E:\GitHub\Tremolo\Altium\Power.SchDoc with C0805 from KEMET Chip Capacitor.IntLib
+Replace Part C21 CAP ELEC 10uF in E:\GitHub\Tremolo\Altium\Power.SchDoc with CAP ELEC 10uF from Parts.SchLib
+Replace Part C22 C0805 in E:\GitHub\Tremolo\Altium\Power.SchDoc with C0805 from KEMET Chip Capacitor.IntLib
+Replace Part D6 Diode 1N4001 in E:\GitHub\Tremolo\Altium\Power.SchDoc with Diode 1N4001 from Miscellaneous Devices.IntLib
+Replace Part R25 ERAS in E:\GitHub\Tremolo\Altium\Power.SchDoc with ERAS from Panasonic Resistor.IntLib
+Replace Part R26 ERAS in E:\GitHub\Tremolo\Altium\Power.SchDoc with ERAS from Panasonic Resistor.IntLib
+Replace Part U? MC78L05ACPRA in E:\GitHub\Tremolo\Altium\Power.SchDoc with MC78L05ACPRA from ON Semi Power Mgt Voltage Regulator.IntLib

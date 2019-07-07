@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=NetC4_2 Pin=S2-2
+Removed Pin From Net: NetName=NetC4_2 Pin=S2-2
+Removed Pin From Net: NetName=NetC4_2 Pin=S2-2
+Removed Member From Class: ClassName=U_Analog Member=S2
+Added Component: Designator=S?(SPDT Toggle)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetR2_2 Pin=S?-1
+Added Pin To Net: NetName=NetC4_2 Pin=S?-2
+Added Pin To Net: NetName=NetC4_1 Pin=S?-3
+Added Member To Class: ClassName=U_CONTROLS Member=Component S1 SPDT Toggle
+Added Member To Class: ClassName=U_Analog Member=Component S? SPDT Toggle

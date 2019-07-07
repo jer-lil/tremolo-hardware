@@ -1,0 +1,62 @@
+Removed Pin From Net: NetName=+5 Pin=*-1
+Removed Pin From Net: NetName=TAP_IN Pin=*-4
+Removed Pin From Net: NetName=Net*_7 Pin=*-7
+Removed Pin From Net: NetName=Net*_9 Pin=*-9
+Removed Pin From Net: NetName=Net*_10 Pin=*-10
+Removed Pin From Net: NetName=+5 Pin=VR1-1
+Removed Pin From Net: NetName=NetU4_23 Pin=VR1-2
+Removed Pin From Net: NetName=NetU4_23 Pin=VR1-2
+Removed Pin From Net: NetName=GND Pin=VR1-3
+Removed Pin From Net: NetName=+5 Pin=VR2-1
+Removed Pin From Net: NetName=NetU4_24 Pin=VR2-2
+Removed Pin From Net: NetName=NetU4_24 Pin=VR2-2
+Removed Pin From Net: NetName=GND Pin=VR2-3
+Removed Pin From Net: NetName=+5 Pin=VR3-1
+Removed Pin From Net: NetName=NetU4_25 Pin=VR3-2
+Removed Pin From Net: NetName=NetU4_25 Pin=VR3-2
+Removed Pin From Net: NetName=GND Pin=VR3-3
+Removed Pin From Net: NetName=+5 Pin=VR4-1
+Removed Pin From Net: NetName=Net*_11 Pin=VR4-2
+Removed Pin From Net: NetName=Net*_11 Pin=VR4-2
+Removed Pin From Net: NetName=GND Pin=VR4-3
+Removed Member From Class: ClassName=U_CONTROLS Member=VR1
+Removed Member From Class: ClassName=U_CONTROLS Member=VR2
+Removed Member From Class: ClassName=U_CONTROLS Member=VR3
+Removed Member From Class: ClassName=U_CONTROLS Member=VR4
+Added Component: Designator=VR?(Pot-9mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "A10k"; VariantName = "[No Variations]"
+Added Component: Designator=VR?(Pot-9mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "A10k"; VariantName = "[No Variations]"
+Added Component: Designator=VR?(Pot-9mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "A10k"; VariantName = "[No Variations]"
+Added Component: Designator=VR?(Pot-9mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "A10k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V Pin=*-1
+Added Pin To Net: NetName=+5 Pin=*-1
+Added Pin To Net: NetName=Net*_4 Pin=*-4
+Added Pin To Net: NetName=TAP_IN Pin=*-4
+Added Pin To Net: NetName=Net*_7 Pin=*-7
+Added Pin To Net: NetName=Net*_2 Pin=*-9
+Added Pin To Net: NetName=Net*_9 Pin=*-9
+Added Pin To Net: NetName=5V Pin=*-10
+Added Pin To Net: NetName=Net*_10 Pin=*-10
+Added Pin To Net: NetName=+5 Pin=VR?-1
+Added Pin To Net: NetName=+5 Pin=VR?-1
+Added Pin To Net: NetName=+5 Pin=VR?-1
+Added Pin To Net: NetName=+5 Pin=VR?-1
+Added Pin To Net: NetName=Net*_11 Pin=VR?-2
+Added Pin To Net: NetName=NetU4_23 Pin=VR?-2
+Added Pin To Net: NetName=NetU4_24 Pin=VR?-2
+Added Pin To Net: NetName=NetU4_25 Pin=VR?-2
+Added Pin To Net: NetName=GND Pin=VR?-3
+Added Pin To Net: NetName=GND Pin=VR?-3
+Added Pin To Net: NetName=GND Pin=VR?-3
+Added Pin To Net: NetName=GND Pin=VR?-3
+Added Member To Class: ClassName=U_CONTROLS Member=Component VR? Pot-9mm
+Added Member To Class: ClassName=U_CONTROLS Member=Component VR? Pot-9mm
+Added Member To Class: ClassName=U_CONTROLS Member=Component VR? Pot-9mm
+Added Member To Class: ClassName=U_CONTROLS Member=Component VR? Pot-9mm

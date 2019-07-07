@@ -1,0 +1,41 @@
+Removed Pin From Net: NetName=+5 Pin=*-1
+Removed Pin From Net: NetName=TAP_IN Pin=*-4
+Removed Pin From Net: NetName=Net*_7 Pin=*-7
+Removed Pin From Net: NetName=Net*_9 Pin=*-9
+Removed Pin From Net: NetName=Net*_10 Pin=*-10
+Change Component Designator: OldDesignator=C? NewDesignator=C13
+Change Component Designator: OldDesignator=C? NewDesignator=C14
+Change Component Designator: OldDesignator=C? NewDesignator=C15
+Change Component Designator: OldDesignator=D? NewDesignator=D7
+Change Component Designator: OldDesignator=P? NewDesignator=P1
+Change Component Designator: OldDesignator=P? NewDesignator=P2
+Change Component Designator: OldDesignator=R? NewDesignator=R3
+Change Component Designator: OldDesignator=R? NewDesignator=R8
+Change Component Designator: OldDesignator=R? NewDesignator=R10
+Change Component Designator: OldDesignator=R? NewDesignator=R27
+Change Component Designator: OldDesignator=S? NewDesignator=S2
+Change Component Designator: OldDesignator=VR? NewDesignator=VR5
+Added Pin To Net: NetName=5V Pin=*-1
+Added Pin To Net: NetName=+5 Pin=*-1
+Added Pin To Net: NetName=Net*_4 Pin=*-4
+Added Pin To Net: NetName=TAP_IN Pin=*-4
+Added Pin To Net: NetName=Net*_7 Pin=*-7
+Added Pin To Net: NetName=Net*_2 Pin=*-9
+Added Pin To Net: NetName=Net*_9 Pin=*-9
+Added Pin To Net: NetName=5V Pin=*-10
+Added Pin To Net: NetName=Net*_10 Pin=*-10
+Change Net Name : Old Net Name=NetC?_1 New Net Name=NetC15_1
+Change Net Name : Old Net Name=NetD?_2 New Net Name=NetD7_2
+Change Net Name : Old Net Name=NetR?_1 New Net Name=NetR10_1
+Added Pin To Net: NetName=NetR3_1 Pin=R3-1
+Added Pin To Net: NetName=NetR3_1 Pin=U4-2
+Added Net: Name=NetR3_1
+Added Pin To Net: NetName=NetR8_1 Pin=R8-1
+Added Pin To Net: NetName=NetR8_1 Pin=U4-9
+Added Net: Name=NetR8_1
+Added Member To Class: ClassName=U_MCU Member=Component C13 Cap
+Added Member To Class: ClassName=U_MCU Member=Component C14 Cap
+Added Member To Class: ClassName=U_MCU Member=Component P2 Header 2
+Added Member To Class: ClassName=U_MCU Member=Component R3 Res1
+Added Member To Class: ClassName=U_MCU Member=Component R8 Res1
+Added Member To Class: ClassName=U_MCU Member=Component R10 Res1

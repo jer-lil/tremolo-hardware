@@ -1,0 +1,7 @@
+Replace Part * Relay DPDT Dual Coil in E:\GitHub\Tremolo\Bypass.SchDoc with Relay DPDT Dual Coil from Parts.SchLib
+Replace Part D1 Diode 1N4148 in E:\GitHub\Tremolo\Bypass.SchDoc with Diode 1N4148 from Miscellaneous Devices.IntLib
+Replace Part D2 Diode 1N4148 in E:\GitHub\Tremolo\Bypass.SchDoc with Diode 1N4148 from Miscellaneous Devices.IntLib
+Replace Part R11 Res1 in E:\GitHub\Tremolo\Bypass.SchDoc with Res1 from Miscellaneous Devices.IntLib
+Replace Part R12 Res1 in E:\GitHub\Tremolo\Bypass.SchDoc with Res1 from Miscellaneous Devices.IntLib
+Replace Part R13 Res1 in E:\GitHub\Tremolo\Bypass.SchDoc with Res1 from Miscellaneous Devices.IntLib
+Replace Part U3 Optoisolator1 in E:\GitHub\Tremolo\Bypass.SchDoc with Optoisolator1 from Miscellaneous Devices.IntLib
