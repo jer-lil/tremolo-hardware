@@ -1,0 +1,5 @@
+Removed Member From Class: ClassName=U_CONTROLS Member=EXPR?
+Change Component Designator: OldDesignator=EXP1 NewDesignator=EXP3
+Change Component Designator: OldDesignator=EXPR NewDesignator=EXP2
+Change Component Designator: OldDesignator=EXPR? NewDesignator=EXP1
+Added Member To Class: ClassName=U_CONTROLS Member=Component EXP3 Wire Pad

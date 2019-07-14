@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=EXP_5V Pin=VR2-1
+Removed Pin From Net: NetName=EXP_GND Pin=VR2-3
+Removed Pin From Net: NetName=EXP_5V Pin=VR3-1
+Removed Pin From Net: NetName=EXP_GND Pin=VR3-3
+Change Component Footprint: Designator=VR2 Old Footprint=Pot-9mm New Footprint=Pot-16mm
+Change Component Footprint: Designator=VR3 Old Footprint=Pot-9mm New Footprint=Pot-16mm
+Change Component Comment : Designator=VR2 Old Comment=Pot-9mm New Comment=Pot-16mm
+Change Component Comment : Designator=VR3 Old Comment=Pot-9mm New Comment=Pot-16mm
+Added Pin To Net: NetName=EXP_GND Pin=VR2-1
+Added Pin To Net: NetName=EXP_5V Pin=VR2-3
+Added Pin To Net: NetName=EXP_GND Pin=VR3-1
+Added Pin To Net: NetName=EXP_5V Pin=VR3-3

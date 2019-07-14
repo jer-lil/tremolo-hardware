@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=EXP_5V Pin=EXP3-1
+Added Component: Designator=NT6(Net Tie)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=EXP_5V Pin=NT6-1
+Change Net Name : Old Net Name=EXP_5V New Net Name=+5
+Added Pin To Net: NetName=EXP_5V Pin=EXP3-1
+Added Pin To Net: NetName=EXP_5V Pin=NT6-0
+Added Net: Name=EXP_5V
+Added Member To Class: ClassName=U_CONTROLS Member=Component NT6 Net Tie

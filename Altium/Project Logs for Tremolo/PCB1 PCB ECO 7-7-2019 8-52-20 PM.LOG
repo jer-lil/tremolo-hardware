@@ -1,0 +1,8 @@
+Change Component Designator: OldDesignator=P3 NewDesignator=IN
+Change Component Designator: OldDesignator=P4 NewDesignator=OUT
+Change Component Designator: OldDesignator=P5 NewDesignator=TAP1
+Change Component Designator: OldDesignator=P6 NewDesignator=BYP1
+Change Component Designator: OldDesignator=P7 NewDesignator=9V
+Change Component Designator: OldDesignator=P8 NewDesignator=GND
+Change Component Designator: OldDesignator=P9 NewDesignator=TAP2
+Change Component Designator: OldDesignator=P10 NewDesignator=BYP2
