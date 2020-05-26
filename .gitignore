@@ -1,0 +1,5 @@
+
+
+#Ignore SPICE outputs
+*.log
+*.raw
