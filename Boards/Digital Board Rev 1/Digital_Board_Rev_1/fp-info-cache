@@ -1,4 +1,4 @@
-17113978041758707
+17118774796601326
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -65841,6 +65841,27 @@ Jack_0.25in_TRS_Switched
 0
 6
 6
+Pinebox
+Luna_NSL-32_Vertical
+Optoisolator with LED and photoresistor
+optoisolator
+0
+4
+4
+Pinebox
+Potentiometer_9MM
+http://www.ttelectronics.com/sites/default/files/download-files/Datasheet_PanelPot_P09xSeries.pdf
+potentiometer vertical TT P0915N single
+0
+5
+3
+Pinebox
+Relay_DPDT_NL_TE_IM05GR
+
+
+0
+8
+8
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
