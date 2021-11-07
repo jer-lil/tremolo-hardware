@@ -1,0 +1,464 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 14
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GNDA #PWR0180
+U 1 1 6049F95C
+P 4200 5900
+F 0 "#PWR0180" H 4200 5650 50  0001 C CNN
+F 1 "GNDA" H 4205 5727 50  0000 C CNN
+F 2 "" H 4200 5900 50  0001 C CNN
+F 3 "" H 4200 5900 50  0001 C CNN
+	1    4200 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 5900 4200 5800
+Text HLabel 3600 6200 2    50   Input ~ 0
+CH1_IN
+Wire Wire Line
+	3100 6200 3600 6200
+Wire Wire Line
+	3100 5800 4200 5800
+Text HLabel 3600 5900 2    50   Input ~ 0
+CH1_SW
+$Comp
+L Connector:AudioJack3_Switch J5
+U 1 1 6049E0A7
+P 2900 6000
+F 0 "J5" H 2882 6425 50  0000 C CNN
+F 1 "AudioJack3_Switch" H 2882 6334 50  0000 C CNN
+F 2 "Pinebox:Jack_0.25in_TRS_Switched" H 2900 6000 50  0001 C CNN
+F 3 "~" H 2900 6000 50  0001 C CNN
+	1    2900 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 5900 3600 5900
+Text Label 3250 7150 0    50   ~ 0
+CH2_IN
+$Comp
+L power:GNDA #PWR0181
+U 1 1 604A2A51
+P 4200 6850
+F 0 "#PWR0181" H 4200 6600 50  0001 C CNN
+F 1 "GNDA" H 4205 6677 50  0000 C CNN
+F 2 "" H 4200 6850 50  0001 C CNN
+F 3 "" H 4200 6850 50  0001 C CNN
+	1    4200 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 6850 4200 6750
+Text HLabel 3600 7150 2    50   Input ~ 0
+CH2_IN
+Wire Wire Line
+	3100 7150 3600 7150
+Wire Wire Line
+	3100 6750 4200 6750
+Text HLabel 3600 6850 2    50   Input ~ 0
+CH2_SW
+$Comp
+L Connector:AudioJack3_Switch J6
+U 1 1 604A2A60
+P 2900 6950
+F 0 "J6" H 2882 7375 50  0000 C CNN
+F 1 "AudioJack3_Switch" H 2882 7284 50  0000 C CNN
+F 2 "Pinebox:Jack_0.25in_TRS_Switched" H 2900 6950 50  0001 C CNN
+F 3 "~" H 2900 6950 50  0001 C CNN
+	1    2900 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 6850 3600 6850
+$Comp
+L power:GNDA #PWR0182
+U 1 1 604A6DDE
+P 10100 1450
+F 0 "#PWR0182" H 10100 1200 50  0001 C CNN
+F 1 "GNDA" H 10105 1277 50  0000 C CNN
+F 2 "" H 10100 1450 50  0001 C CNN
+F 3 "" H 10100 1450 50  0001 C CNN
+	1    10100 1450
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector:AudioJack3_Switch J8
+U 1 1 604A6DED
+P 10550 1650
+F 0 "J8" H 10532 2075 50  0000 C CNN
+F 1 "AudioJack3_Switch" H 10532 1984 50  0000 C CNN
+F 2 "Pinebox:Jack_0.25in_TRS_Switched" H 10550 1650 50  0001 C CNN
+F 3 "~" H 10550 1650 50  0001 C CNN
+	1    10550 1650
+	-1   0    0    -1  
+$EndComp
+Text Label 10150 3500 2    50   ~ 0
+CH2_OUT
+$Comp
+L power:GNDA #PWR0183
+U 1 1 604AA1CA
+P 10050 3100
+F 0 "#PWR0183" H 10050 2850 50  0001 C CNN
+F 1 "GNDA" H 10055 2927 50  0000 C CNN
+F 2 "" H 10050 3100 50  0001 C CNN
+F 3 "" H 10050 3100 50  0001 C CNN
+	1    10050 3100
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector:AudioJack3_Switch J7
+U 1 1 604AA1D8
+P 10500 3300
+F 0 "J7" H 10482 3725 50  0000 C CNN
+F 1 "AudioJack3_Switch" H 10482 3634 50  0000 C CNN
+F 2 "Pinebox:Jack_0.25in_TRS_Switched" H 10500 3300 50  0001 C CNN
+F 3 "~" H 10500 3300 50  0001 C CNN
+	1    10500 3300
+	-1   0    0    -1  
+$EndComp
+Text Label 3250 6850 0    50   ~ 0
+CH2_SW
+Text Label 3250 6200 0    50   ~ 0
+CH1_IN
+Text Label 3250 5900 0    50   ~ 0
+CH1_SW
+$Comp
+L Relay:IM05 K1
+U 1 1 604BA383
+P 5850 2800
+F 0 "K1" V 5083 2800 50  0000 C CNN
+F 1 "IM05" V 5174 2800 50  0000 C CNN
+F 2 "Pinebox:Relay_DPDT_NL_TE_IM05GR" H 5850 2800 50  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=108-98001&DocType=SS&DocLang=EN" H 5850 2800 50  0001 C CNN
+	1    5850 2800
+	0    -1   1    0   
+$EndComp
+Text Label 3250 7250 0    50   ~ 0
+CH1_IN
+Wire Wire Line
+	3500 7250 3100 7250
+Wire Wire Line
+	10100 1450 10350 1450
+Text Label 10150 1850 2    50   ~ 0
+CH1_OUT
+Wire Wire Line
+	10050 3100 10300 3100
+Text HLabel 5150 2900 0    50   Input ~ 0
+CH1_EFF
+Text HLabel 5150 2700 0    50   Input ~ 0
+CH1_BYP
+Wire Wire Line
+	5150 2900 5550 2900
+Wire Wire Line
+	5150 2700 5550 2700
+Text HLabel 5150 3300 0    50   Input ~ 0
+CH2_EFF
+Text HLabel 5150 3100 0    50   Input ~ 0
+CH2_BYP
+Wire Wire Line
+	5150 3300 5550 3300
+Wire Wire Line
+	5150 3100 5550 3100
+$Comp
+L Relay_SolidState:TLP222A-2 U26
+U 1 1 604D1ED8
+P 8450 2050
+F 0 "U26" H 8450 2375 50  0000 C CNN
+F 1 "TLP222A-2" H 8450 2284 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 8250 1850 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&prodName=TLP222A" H 8450 2050 50  0001 L CNN
+	1    8450 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 1950 8750 1550
+Wire Wire Line
+	7050 1550 7050 2800
+Wire Wire Line
+	7050 2800 6150 2800
+Text HLabel 7600 1950 0    50   Input ~ 0
+MUTE1
+$Comp
+L power:GNDD #PWR0184
+U 1 1 604D8E2C
+P 8150 2150
+F 0 "#PWR0184" H 8150 1900 50  0001 C CNN
+F 1 "GNDD" V 8154 2040 50  0000 R CNN
+F 2 "" H 8150 2150 50  0001 C CNN
+F 3 "" H 8150 2150 50  0001 C CNN
+	1    8150 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDA #PWR0185
+U 1 1 604D98D3
+P 8750 2150
+F 0 "#PWR0185" H 8750 1900 50  0001 C CNN
+F 1 "GNDA" V 8755 2022 50  0000 R CNN
+F 2 "" H 8750 2150 50  0001 C CNN
+F 3 "" H 8750 2150 50  0001 C CNN
+	1    8750 2150
+	0    -1   1    0   
+$EndComp
+$Comp
+L Relay_SolidState:TLP222A-2 U26
+U 2 1 604DA598
+P 8450 3700
+F 0 "U26" H 8450 4025 50  0000 C CNN
+F 1 "TLP222A-2" H 8450 3934 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 8250 3500 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&prodName=TLP222A" H 8450 3700 50  0001 L CNN
+	2    8450 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 3600 8750 3200
+Text HLabel 7650 3600 0    50   Input ~ 0
+MUTE2
+$Comp
+L power:GNDD #PWR0186
+U 1 1 604DA601
+P 8150 3800
+F 0 "#PWR0186" H 8150 3550 50  0001 C CNN
+F 1 "GNDD" V 8154 3690 50  0000 R CNN
+F 2 "" H 8150 3800 50  0001 C CNN
+F 3 "" H 8150 3800 50  0001 C CNN
+	1    8150 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDA #PWR0187
+U 1 1 604DA60B
+P 8750 3800
+F 0 "#PWR0187" H 8750 3550 50  0001 C CNN
+F 1 "GNDA" V 8755 3672 50  0000 R CNN
+F 2 "" H 8750 3800 50  0001 C CNN
+F 3 "" H 8750 3800 50  0001 C CNN
+	1    8750 3800
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	9700 3500 10300 3500
+$Comp
+L Diode:B120-E3 D3
+U 1 1 604E1070
+P 5850 1750
+F 0 "D3" H 5850 1967 50  0000 C CNN
+F 1 "B120-E3" H 5850 1876 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 5850 1575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88946/b120.pdf" H 5850 1750 50  0001 C CNN
+	1    5850 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 1750 5450 1750
+Wire Wire Line
+	5450 1750 5450 2400
+Wire Wire Line
+	5450 2400 5550 2400
+Wire Wire Line
+	6150 2400 6300 2400
+Wire Wire Line
+	6300 2400 6300 1750
+Wire Wire Line
+	6300 1750 6000 1750
+$Comp
+L power:+9V #PWR0188
+U 1 1 604E2E82
+P 5450 1450
+F 0 "#PWR0188" H 5450 1300 50  0001 C CNN
+F 1 "+9V" H 5465 1623 50  0000 C CNN
+F 2 "" H 5450 1450 50  0001 C CNN
+F 3 "" H 5450 1450 50  0001 C CNN
+	1    5450 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 1450 5450 1750
+Connection ~ 5450 1750
+$Comp
+L Transistor_BJT:MMBT3904 Q25
+U 1 1 604F289E
+P 6400 4050
+F 0 "Q25" H 6591 4096 50  0000 L CNN
+F 1 "MMBT3904" H 6591 4005 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6600 3975 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 6400 4050 50  0001 L CNN
+	1    6400 4050
+	1    0    0    -1  
+$EndComp
+Text HLabel 5700 4050 0    50   Input ~ 0
+RLY_SET
+$Comp
+L power:GNDD #PWR0189
+U 1 1 604F28D2
+P 6500 4250
+F 0 "#PWR0189" H 6500 4000 50  0001 C CNN
+F 1 "GNDD" H 6504 4095 50  0000 C CNN
+F 2 "" H 6500 4250 50  0001 C CNN
+F 3 "" H 6500 4250 50  0001 C CNN
+	1    6500 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 4050 6200 4050
+Wire Wire Line
+	5800 4050 5700 4050
+Wire Wire Line
+	6500 2400 6300 2400
+Wire Wire Line
+	6500 2400 6500 3850
+Connection ~ 6300 2400
+$Comp
+L Device:C C18
+U 1 1 604F7DBF
+P 7850 1550
+F 0 "C18" V 7598 1550 50  0000 C CNN
+F 1 "470n" V 7689 1550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7888 1400 50  0001 C CNN
+F 3 "~" H 7850 1550 50  0001 C CNN
+	1    7850 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7700 1550 7050 1550
+Wire Wire Line
+	8000 1550 8750 1550
+Wire Wire Line
+	9700 1850 10350 1850
+Wire Wire Line
+	9550 1700 9550 1550
+Wire Wire Line
+	9550 1550 8750 1550
+Connection ~ 8750 1550
+$Comp
+L power:GNDA #PWR0190
+U 1 1 604FED6C
+P 9550 2000
+F 0 "#PWR0190" H 9550 1750 50  0001 C CNN
+F 1 "GNDA" H 9555 1827 50  0000 C CNN
+F 2 "" H 9550 2000 50  0001 C CNN
+F 3 "" H 9550 2000 50  0001 C CNN
+	1    9550 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0191
+U 1 1 60500E67
+P 9550 3650
+F 0 "#PWR0191" H 9550 3400 50  0001 C CNN
+F 1 "GNDA" H 9555 3477 50  0000 C CNN
+F 2 "" H 9550 3650 50  0001 C CNN
+F 3 "" H 9550 3650 50  0001 C CNN
+	1    9550 3650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 3350 9550 3200
+Wire Wire Line
+	9550 3200 8750 3200
+$Comp
+L Device:C C19
+U 1 1 60502EC2
+P 7850 3200
+F 0 "C19" V 7598 3200 50  0000 C CNN
+F 1 "470n" V 7689 3200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7888 3050 50  0001 C CNN
+F 3 "~" H 7850 3200 50  0001 C CNN
+	1    7850 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8000 3200 8750 3200
+Connection ~ 8750 3200
+Wire Wire Line
+	6150 3200 7700 3200
+$Comp
+L Device:R R53
+U 1 1 60661647
+P 7900 1950
+F 0 "R53" V 7693 1950 50  0000 C CNN
+F 1 "630" V 7784 1950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7830 1950 50  0001 C CNN
+F 3 "~" H 7900 1950 50  0001 C CNN
+	1    7900 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8050 1950 8150 1950
+Wire Wire Line
+	7750 1950 7600 1950
+$Comp
+L Device:R R54
+U 1 1 60663570
+P 7900 3600
+F 0 "R54" V 7693 3600 50  0000 C CNN
+F 1 "630" V 7784 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7830 3600 50  0001 C CNN
+F 3 "~" H 7900 3600 50  0001 C CNN
+	1    7900 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8050 3600 8150 3600
+Wire Wire Line
+	7750 3600 7650 3600
+$Comp
+L Device:R_POT_TRIM RV8
+U 1 1 6052767C
+P 9550 1850
+F 0 "RV8" H 9481 1896 50  0000 R CNN
+F 1 "100k" H 9481 1805 50  0000 R CNN
+F 2 "Potentiometer_SMD:Potentiometer_Bourns_3314G_Vertical" H 9550 1850 50  0001 C CNN
+F 3 "~" H 9550 1850 50  0001 C CNN
+	1    9550 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT_TRIM RV9
+U 1 1 6052843A
+P 9550 3500
+F 0 "RV9" H 9481 3546 50  0000 R CNN
+F 1 "100k" H 9481 3455 50  0000 R CNN
+F 2 "Potentiometer_SMD:Potentiometer_Bourns_3314G_Vertical" H 9550 3500 50  0001 C CNN
+F 3 "~" H 9550 3500 50  0001 C CNN
+	1    9550 3500
+	1    0    0    -1  
+$EndComp
+Text Notes 7350 2400 0    50   ~ 0
+4.2mA worst case, greater than 3mA threshold.
+Text Notes 8200 1350 0    50   ~ 0
+Fc = 3Hz
+$Comp
+L Device:R R50
+U 1 1 604F55B9
+P 5950 4050
+F 0 "R50" V 5743 4050 50  0000 C CNN
+F 1 "2.2k" V 5834 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5880 4050 50  0001 C CNN
+F 3 "~" H 5950 4050 50  0001 C CNN
+	1    5950 4050
+	0    1    1    0   
+$EndComp
+Text Notes 5600 4650 0    50   ~ 0
+1.2mA base current, easily enough to drive 15mA coil current.
+Text Notes 8200 4050 0    50   ~ 0
+Turn on: 2ms\nTurn off: 0.5ms
+Text Label 9400 3200 2    50   ~ 0
+CH2_OUT_PRE
+Text Label 9350 1550 2    50   ~ 0
+CH1_OUT_PRE
+$EndSCHEMATC

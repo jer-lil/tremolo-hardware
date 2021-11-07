@@ -1,0 +1,130 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 18
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3050 2400 3050 2300
+Wire Wire Line
+	3050 2300 3200 2300
+Wire Wire Line
+	3050 1650 3050 1550
+Wire Wire Line
+	3050 1950 3050 2100
+Wire Wire Line
+	3050 2100 3200 2100
+Wire Wire Line
+	2650 2600 2750 2600
+Wire Wire Line
+	2050 2600 2350 2600
+Wire Wire Line
+	3950 2100 3800 2100
+Wire Wire Line
+	3800 2300 3950 2300
+$Comp
+L Transistor_BJT:MMBT3904 Q6
+U 1 1 6042718B
+P 2950 2600
+AR Path="/604068C4/6042718B" Ref="Q6"  Part="1" 
+AR Path="/6041C00F/6042718B" Ref="Q12"  Part="1" 
+AR Path="/60422974/6042718B" Ref="Q18"  Part="1" 
+AR Path="/60424CB1/6042718B" Ref="Q24"  Part="1" 
+F 0 "Q6" H 3141 2646 50  0000 L CNN
+F 1 "MMBT3904" H 3141 2555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3150 2525 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 2950 2600 50  0001 L CNN
+	1    2950 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0136
+U 1 1 6042718C
+P 3050 1550
+AR Path="/604068C4/6042718C" Ref="#PWR0136"  Part="1" 
+AR Path="/6041C00F/6042718C" Ref="#PWR0148"  Part="1" 
+AR Path="/60422974/6042718C" Ref="#PWR0160"  Part="1" 
+AR Path="/60424CB1/6042718C" Ref="#PWR0172"  Part="1" 
+F 0 "#PWR0136" H 3050 1400 50  0001 C CNN
+F 1 "+3.3V" H 3065 1723 50  0000 C CNN
+F 2 "" H 3050 1550 50  0001 C CNN
+F 3 "" H 3050 1550 50  0001 C CNN
+	1    3050 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 6042718D
+P 3050 1800
+AR Path="/604068C4/6042718D" Ref="R13"  Part="1" 
+AR Path="/6041C00F/6042718D" Ref="R25"  Part="1" 
+AR Path="/60422974/6042718D" Ref="R37"  Part="1" 
+AR Path="/60424CB1/6042718D" Ref="R49"  Part="1" 
+F 0 "R13" H 3120 1846 50  0000 L CNN
+F 1 "1k" H 3120 1755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2980 1800 50  0001 C CNN
+F 3 "~" H 3050 1800 50  0001 C CNN
+	1    3050 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 6042718E
+P 2500 2600
+AR Path="/604068C4/6042718E" Ref="R7"  Part="1" 
+AR Path="/6041C00F/6042718E" Ref="R19"  Part="1" 
+AR Path="/60422974/6042718E" Ref="R31"  Part="1" 
+AR Path="/60424CB1/6042718E" Ref="R43"  Part="1" 
+F 0 "R7" V 2293 2600 50  0000 C CNN
+F 1 "1k" V 2384 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2430 2600 50  0001 C CNN
+F 3 "~" H 2500 2600 50  0001 C CNN
+	1    2500 2600
+	0    1    1    0   
+$EndComp
+Text HLabel 2050 2600 0    50   Input ~ 0
+PWM
+$Comp
+L power:GNDD #PWR0137
+U 1 1 6042718F
+P 3050 2800
+AR Path="/604068C4/6042718F" Ref="#PWR0137"  Part="1" 
+AR Path="/6041C00F/6042718F" Ref="#PWR0149"  Part="1" 
+AR Path="/60422974/6042718F" Ref="#PWR0161"  Part="1" 
+AR Path="/60424CB1/6042718F" Ref="#PWR0173"  Part="1" 
+F 0 "#PWR0137" H 3050 2550 50  0001 C CNN
+F 1 "GNDD" H 3054 2645 50  0000 C CNN
+F 2 "" H 3050 2800 50  0001 C CNN
+F 3 "" H 3050 2800 50  0001 C CNN
+	1    3050 2800
+	1    0    0    -1  
+$EndComp
+Text HLabel 3950 2100 2    50   Input ~ 0
+OPTO_H
+Text HLabel 3950 2300 2    50   Input ~ 0
+OPTO_L
+$Comp
+L Isolator:NSL-32 U7
+U 1 1 6042718A
+P 3500 2200
+AR Path="/604068C4/6042718A" Ref="U7"  Part="1" 
+AR Path="/6041C00F/6042718A" Ref="U13"  Part="1" 
+AR Path="/60422974/6042718A" Ref="U19"  Part="1" 
+AR Path="/60424CB1/6042718A" Ref="U25"  Part="1" 
+F 0 "U7" H 3500 2517 50  0000 C CNN
+F 1 "NSL-32" H 3500 2426 50  0000 C CNN
+F 2 "Pinebox:Luna_NSL-32_Vertical" H 3500 1900 50  0001 C CNN
+F 3 "http://lunainc.com/wp-content/uploads/2016/06/NSL-32.pdf" H 3550 2200 50  0001 C CNN
+	1    3500 2200
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
