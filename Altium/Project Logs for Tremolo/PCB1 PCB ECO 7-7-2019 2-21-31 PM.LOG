@@ -1,8 +1,0 @@
-Removed Pin From Net: NetName=NetR18_2 Pin=S1-2
-Removed Pin From Net: NetName=NetR18_2 Pin=S1-2
-Removed Pin From Net: NetName=NetR18_2 Pin=S1-2
-Added Component: Designator=S1(SPDT Toggle)
-Add component. Clean all parameters for all variants
-Added Pin To Net: NetName=NetR37_2 Pin=S1-1
-Added Pin To Net: NetName=NetR18_2 Pin=S1-2
-Added Pin To Net: NetName=NetR11_1 Pin=S1-3

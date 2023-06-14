@@ -1,9 +1,0 @@
-Info: Backing up file “E:\Pinebox\Tremolo\Boards\Nucleo64_Shield\Trem_Nucleo_Shield\sym-lib-table” to file “E:\Pinebox\Tremolo\Boards\Nucleo64_Shield\Trem_Nucleo_Shield\rescue-backup\sym-lib-table-2020-03-30-22-24-19”.
-Info: Backing up file “E:\Pinebox\Tremolo\Boards\Nucleo64_Shield\Trem_Nucleo_Shield\Trem_Nucleo_Shield.sch” to file “E:\Pinebox\Tremolo\Boards\Nucleo64_Shield\Trem_Nucleo_Shield\rescue-backup\Trem_Nucleo_Shield-2020-03-30-22-24-19.sch”.
-Info: Backing up file “E:\Pinebox\Tremolo\Boards\Nucleo64_Shield\Trem_Nucleo_Shield\Trem_Nucleo_Shield.pro” to file “E:\Pinebox\Tremolo\Boards\Nucleo64_Shield\Trem_Nucleo_Shield\rescue-backup\Trem_Nucleo_Shield-2020-03-30-22-24-19.pro”.
-Info: Backing up file “E:\Pinebox\Tremolo\Boards\Nucleo64_Shield\Trem_Nucleo_Shield\Trem_Nucleo_Shield-cache.lib” to file “E:\Pinebox\Tremolo\Boards\Nucleo64_Shield\Trem_Nucleo_Shield\rescue-backup\Trem_Nucleo_Shield-cache-2020-03-30-22-24-19.lib”.
-Info: Backing up file “E:\Pinebox\Tremolo\Boards\Nucleo64_Shield\Trem_Nucleo_Shield\Trem_Nucleo_Shield-rescue.lib” to file “E:\Pinebox\Tremolo\Boards\Nucleo64_Shield\Trem_Nucleo_Shield\rescue-backup\Trem_Nucleo_Shield-rescue-2020-03-30-22-24-19.lib”.
-Info: Backing up file “E:\Pinebox\Tremolo\Boards\Nucleo64_Shield\Trem_Nucleo_Shield\Trem_Nucleo_Shield-rescue.dcm” to file “E:\Pinebox\Tremolo\Boards\Nucleo64_Shield\Trem_Nucleo_Shield\rescue-backup\Trem_Nucleo_Shield-rescue-2020-03-30-22-24-19.dcm”.
-Warning: No symbol “CONN_02X19” found in symbol library table.
-Warning: No symbol “CONN_02X19” found in symbol library table.
-Info: Symbol library table mapping complete!
