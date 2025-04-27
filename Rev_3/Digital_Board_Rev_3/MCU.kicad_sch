@@ -5,7 +5,7 @@
 	(uuid "5ead9674-9220-446e-a59a-6be1d6e6760b")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Device:C"
+		(symbol "#gplm:cap/RES-4003-100N"
 			(pin_numbers
 				(hide yes)
 			)
@@ -24,16 +24,17 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C"
+			(property "Value" "100n"
 				(at 0.635 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -42,7 +43,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -51,7 +52,68 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
+			(property "Description" "CAP SMD 100nF 0402 25V+ X7R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "IPN" "RES-4003-100N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Capacitance" "100n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage" "25V+"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Material" "X7R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -69,7 +131,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "C_*"
+			(property "ki_fp_filters" "Capacitor_SMD:C_0402_1005Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -78,7 +140,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_0_1"
+			(symbol "cap/RES-4003-100N_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -104,7 +166,7 @@
 					)
 				)
 			)
-			(symbol "C_1_1"
+			(symbol "cap/RES-4003-100N_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -134,6 +196,517 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "#gplm:cap/RES-4007-02U2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2.2u"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP SMD 2.2uF 0603 10V+ X7R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "IPN" "RES-4007-02U2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Capacitance" "2.2u"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage" "10V+"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Material" "X7R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "cap/RES-4007-02U2_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "cap/RES-4007-02U2_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Digital Board Rev 2-rescue:Conn_01x06_Male-Connector"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Connector_Conn_01x06_Male"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_Male-Connector_1_1"
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3207,16 +3780,28 @@
 		)
 	)
 	(junction
-		(at 137.16 55.88)
+		(at 132.08 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b81e568-d13f-488d-bb70-a3a5abc25114")
+	)
+	(junction
+		(at 132.08 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "144aad05-949c-41f1-bfed-b435dd98f881")
 	)
 	(junction
-		(at 116.84 55.88)
+		(at 106.68 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "275920f5-3129-471a-9cc7-ce11b4bad9d2")
+	)
+	(junction
+		(at 119.38 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38917537-4939-4ff2-9fb7-89812760bf97")
 	)
 	(junction
 		(at 185.42 55.88)
@@ -3225,7 +3810,7 @@
 		(uuid "3b11f128-bfbd-4b1c-adc0-dedebf6629b8")
 	)
 	(junction
-		(at 106.68 55.88)
+		(at 93.98 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e268e7d-0a58-4fc8-bf33-48965672e1f6")
@@ -3237,28 +3822,16 @@
 		(uuid "3fa900cb-a3e7-4610-9a56-2acfb119a5c6")
 	)
 	(junction
-		(at 106.68 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56a4fe74-61bb-4096-bc01-79a67cc62068")
-	)
-	(junction
-		(at 147.32 55.88)
+		(at 144.78 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6bd15b9a-e14b-4950-92d5-539874861738")
 	)
 	(junction
-		(at 137.16 64.77)
+		(at 144.78 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7604138a-b8a0-4143-b3e1-226273d4372c")
-	)
-	(junction
-		(at 116.84 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84103262-776d-4d34-a566-6417a20051de")
+		(uuid "7b74625c-0d36-4024-a099-167e6aa20b9d")
 	)
 	(junction
 		(at 180.34 55.88)
@@ -3267,10 +3840,16 @@
 		(uuid "8ca1749c-8b4a-4a38-b05f-87981d653a3f")
 	)
 	(junction
-		(at 127 64.77)
+		(at 106.68 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9b2636a1-5b4b-4f9d-9c5c-77b3ea760f49")
+		(uuid "8fff9a95-8dce-4c13-a80f-5e6d568efc1e")
+	)
+	(junction
+		(at 93.98 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9285bed8-3c79-4cc1-be12-9300cd178305")
 	)
 	(junction
 		(at 187.96 55.88)
@@ -3279,28 +3858,16 @@
 		(uuid "a31a2180-cba6-485a-b37f-14e700be901d")
 	)
 	(junction
-		(at 147.32 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b76bf2c4-3278-4c19-9069-2fbd1e264150")
-	)
-	(junction
 		(at 199.39 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c738c219-89de-424d-a9b9-11e68c94e1d7")
 	)
 	(junction
-		(at 127 55.88)
+		(at 119.38 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c97d7a0f-ab05-4492-a009-68d23e7d52f5")
-	)
-	(junction
-		(at 208.28 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "decbc30a-64f9-43c9-86eb-021311405bb9")
 	)
 	(junction
 		(at 208.28 55.88)
@@ -3316,7 +3883,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 57.15) (xy 137.16 55.88)
+			(xy 132.08 57.15) (xy 132.08 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3326,7 +3893,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 55.88) (xy 157.48 55.88)
+			(xy 144.78 55.88) (xy 157.48 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3356,7 +3923,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 57.15) (xy 147.32 55.88)
+			(xy 144.78 57.15) (xy 144.78 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3366,7 +3933,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 55.88) (xy 127 55.88)
+			(xy 106.68 55.88) (xy 119.38 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3386,7 +3953,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 55.88) (xy 116.84 55.88)
+			(xy 93.98 55.88) (xy 106.68 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3396,7 +3963,37 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 57.15) (xy 106.68 55.88)
+			(xy 157.48 66.04) (xy 157.48 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "339473d5-2dec-47a2-bb4f-ca7660d204c2")
+	)
+	(wire
+		(pts
+			(xy 62.23 48.26) (xy 62.23 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "345ee888-d6e0-4301-8f8d-2a20027a6793")
+	)
+	(wire
+		(pts
+			(xy 62.23 58.42) (xy 53.34 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f1b254-6237-48d4-9a8f-c10529420a6d")
+	)
+	(wire
+		(pts
+			(xy 93.98 57.15) (xy 93.98 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3416,6 +4013,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 66.04) (xy 157.48 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea70804-f163-4a65-8d03-b62e231f72b8")
+	)
+	(wire
+		(pts
 			(xy 182.88 55.88) (xy 180.34 55.88)
 		)
 		(stroke
@@ -3423,6 +4030,16 @@
 			(type default)
 		)
 		(uuid "4094d395-6b51-42a8-9c92-48e7afa51184")
+	)
+	(wire
+		(pts
+			(xy 119.38 66.04) (xy 132.08 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4673f1bf-3215-44e3-99a5-5774ed149da4")
 	)
 	(wire
 		(pts
@@ -3436,7 +4053,17 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 67.31) (xy 106.68 64.77)
+			(xy 132.08 66.04) (xy 144.78 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f856c7b-90a7-4ea3-891c-14dbdad39f7d")
+	)
+	(wire
+		(pts
+			(xy 93.98 68.58) (xy 93.98 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3446,7 +4073,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 55.88) (xy 147.32 55.88)
+			(xy 132.08 55.88) (xy 144.78 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3456,7 +4083,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 64.77) (xy 157.48 64.77)
+			(xy 93.98 66.04) (xy 106.68 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3466,7 +4093,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 57.15) (xy 116.84 55.88)
+			(xy 106.68 57.15) (xy 106.68 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3486,7 +4113,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 57.15) (xy 127 55.88)
+			(xy 119.38 57.15) (xy 119.38 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3536,7 +4163,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 55.88) (xy 137.16 55.88)
+			(xy 119.38 55.88) (xy 132.08 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3546,13 +4173,33 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 64.77) (xy 116.84 64.77)
+			(xy 62.23 50.8) (xy 53.34 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9b50b42f-cb14-4a8c-85e3-2eb9ccf20e70")
+		(uuid "9de805d5-4aca-4217-aad1-521d6ec5ab4a")
+	)
+	(wire
+		(pts
+			(xy 93.98 66.04) (xy 93.98 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f12b818-1015-4371-89c3-d09c7382f1ec")
+	)
+	(wire
+		(pts
+			(xy 144.78 66.04) (xy 144.78 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a08c2b8b-4453-4d19-9a99-106f65ef56f2")
 	)
 	(wire
 		(pts
@@ -3586,13 +4233,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 64.77) (xy 147.32 64.77)
+			(xy 119.38 66.04) (xy 119.38 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf7777dd-fcb4-4f70-be94-23382f605308")
+		(uuid "ba07eb85-2270-4db4-8104-f0a7e0365b1d")
 	)
 	(wire
 		(pts
@@ -3603,6 +4250,16 @@
 			(type default)
 		)
 		(uuid "ca2afee9-01fc-4bf5-b853-b97f84e3a915")
+	)
+	(wire
+		(pts
+			(xy 62.23 60.96) (xy 53.34 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d098db88-9567-43d9-8d52-d850e39d7d58")
 	)
 	(wire
 		(pts
@@ -3626,13 +4283,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 64.77) (xy 127 64.77)
+			(xy 106.68 66.04) (xy 106.68 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "de4ebec6-e346-4924-891c-c1b68f4d3b6c")
+		(uuid "d372d2a4-50d4-496f-a9a4-7f4c75662a02")
 	)
 	(wire
 		(pts
@@ -3656,6 +4313,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 55.88) (xy 53.34 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efcb856a-f9f6-4d3f-be18-c6e186005035")
+	)
+	(wire
+		(pts
 			(xy 193.04 55.88) (xy 193.04 71.12)
 		)
 		(stroke
@@ -3663,16 +4330,6 @@
 			(type default)
 		)
 		(uuid "f4bcd2bc-2545-495e-8d9e-5b39faa5a913")
-	)
-	(wire
-		(pts
-			(xy 127 64.77) (xy 137.16 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6daa4eb-8394-4957-892b-84c81d1e375b")
 	)
 	(wire
 		(pts
@@ -3684,35 +4341,93 @@
 		)
 		(uuid "f8443292-9944-4dec-a88f-85ad014c0c4d")
 	)
+	(wire
+		(pts
+			(xy 132.08 66.04) (xy 132.08 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f969bbc7-7815-4716-bfd2-d249edc0e7c3")
+	)
+	(wire
+		(pts
+			(xy 106.68 66.04) (xy 119.38 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd104d33-8772-4db4-84cd-87a2cd5f1aa4")
+	)
+	(wire
+		(pts
+			(xy 62.23 53.34) (xy 53.34 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd2a094f-7306-48b7-a7e6-c2097daffa12")
+	)
+	(label "SWCLK"
+		(at 55.88 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e168c85-933a-4118-af1b-afff386ace80")
+	)
+	(label "SWDIO"
+		(at 55.88 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e85b7e66-a98e-48bd-8af0-f87f95c29ff6")
+	)
+	(label "NRST"
+		(at 55.88 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9088c00-572d-4d72-89c2-22d418405452")
+	)
 	(symbol
-		(lib_id "Device:C")
-		(at 147.32 60.96 0)
+		(lib_id "Digital Board Rev 2-rescue:Conn_01x06_Male-Connector")
+		(at 48.26 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "10e6add8-6f9d-4916-b640-a100845d82ee")
-		(property "Reference" "C8"
-			(at 150.241 59.7916 0)
+		(uuid "00000000-0000-0000-0000-000060603584")
+		(property "Reference" "J3"
+			(at 51.0032 46.2026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 150.241 62.103 0)
+		(property "Value" "Conn_01x06_Male"
+			(at 51.0032 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 148.2852 64.77 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,7 +4436,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 60.96 0)
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3730,7 +4445,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 60.96 0)
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3738,32 +4453,44 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "902b6ad9-aa5e-4980-b599-ad437afe3926")
-		)
 		(pin "1"
-			(uuid "ebd3ec58-b013-4896-a441-5c908dc76d03")
+			(uuid "1f0d8642-aebc-4f17-9c36-7d1627c0d561")
+		)
+		(pin "2"
+			(uuid "2d435ef7-6dcb-4d83-b391-f2267e9e9588")
+		)
+		(pin "3"
+			(uuid "85609de8-2256-4c14-ad1d-376d503276b2")
+		)
+		(pin "4"
+			(uuid "7efb9921-028d-44fb-ba08-d31609dbb672")
+		)
+		(pin "6"
+			(uuid "96712f88-f37d-4f53-aae5-1312491c9ba5")
+		)
+		(pin "5"
+			(uuid "3fa10e57-d112-4826-9d90-ca1400343701")
 		)
 		(instances
 			(project "Digital_Board_Rev3"
 				(path "/961bce4d-0f15-4753-8332-e4f92c717c57/ef923231-80ab-48eb-9cf2-8f9d6c00185b"
-					(reference "C8")
+					(reference "J3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Digital Board Rev 2-rescue:GNDD-power")
-		(at 106.68 67.31 0)
+		(lib_id "Digital-Board-Rev-2-rescue:+3.3V-power")
+		(at 62.23 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2cfb7058-7261-4cd4-ad6d-72122e443334")
-		(property "Reference" "#PWR011"
-			(at 106.68 73.66 0)
+		(uuid "00000000-0000-0000-0000-000060632312")
+		(property "Reference" "#PWR0197"
+			(at 62.23 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3771,8 +4498,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDD"
-			(at 106.7816 71.247 0)
+		(property "Value" "+3V3"
+			(at 62.611 43.8658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3780,7 +4507,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 67.31 0)
+			(at 62.23 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3789,7 +4516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 67.31 0)
+			(at 62.23 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3798,7 +4525,406 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 67.31 0)
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc75bd2d-006c-4eee-b8b3-28f2141c3d60")
+		)
+		(instances
+			(project "Digital_Board_Rev3"
+				(path "/961bce4d-0f15-4753-8332-e4f92c717c57/ef923231-80ab-48eb-9cf2-8f9d6c00185b"
+					(reference "#PWR0197")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Digital Board Rev 2-rescue:GNDD-power")
+		(at 63.5 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060640189")
+		(property "Reference" "#PWR0198"
+			(at 69.85 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 66.294 55.7784 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7701008-e9b8-4846-994d-da3dd6637ef1")
+		)
+		(instances
+			(project "Digital_Board_Rev3"
+				(path "/961bce4d-0f15-4753-8332-e4f92c717c57/ef923231-80ab-48eb-9cf2-8f9d6c00185b"
+					(reference "#PWR0198")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#gplm:cap/RES-4003-100N")
+		(at 144.78 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1937cbad-b271-465c-8c5d-212443c1f0a9")
+		(property "Reference" "C5"
+			(at 148.59 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 145.415 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 145.7452 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 100nF 0402 25V+ X7R"
+			(at 144.78 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "RES-4003-100N"
+			(at 144.78 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 144.78 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 144.78 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100n"
+			(at 148.59 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "25V+"
+			(at 148.59 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Material" "X7R"
+			(at 144.78 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 144.78 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2eda9c6b-b7b7-4350-bfef-223483dcb678")
+		)
+		(pin "1"
+			(uuid "d3a0ae11-85aa-4b32-9e94-6a507a9243df")
+		)
+		(instances
+			(project "Digital_Board_Rev3"
+				(path "/961bce4d-0f15-4753-8332-e4f92c717c57/ef923231-80ab-48eb-9cf2-8f9d6c00185b"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#gplm:cap/RES-4003-100N")
+		(at 157.48 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "295a2175-c90d-42a1-8cdb-a360f998ac81")
+		(property "Reference" "C6"
+			(at 161.29 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 158.115 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 158.4452 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 100nF 0402 25V+ X7R"
+			(at 157.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "RES-4003-100N"
+			(at 157.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 157.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 157.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100n"
+			(at 161.29 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "25V+"
+			(at 161.29 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Material" "X7R"
+			(at 157.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 157.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2bca7d52-4f58-4fc9-bfa9-e9cd141234e6")
+		)
+		(pin "1"
+			(uuid "28e95e54-ad46-4367-a421-59a9a2ed65c7")
+		)
+		(instances
+			(project "Digital_Board_Rev3"
+				(path "/961bce4d-0f15-4753-8332-e4f92c717c57/ef923231-80ab-48eb-9cf2-8f9d6c00185b"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Digital Board Rev 2-rescue:GNDD-power")
+		(at 93.98 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cfb7058-7261-4cd4-ad6d-72122e443334")
+		(property "Reference" "#PWR011"
+			(at 93.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 94.0816 72.517 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4014,85 +5140,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 208.28 60.96 0)
+		(lib_id "#gplm:cap/RES-4003-100N")
+		(at 106.68 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "62f891c4-cb63-4479-ad36-bbf8c0a49809")
-		(property "Reference" "C10"
-			(at 211.201 59.7916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 211.201 62.103 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 209.2452 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 208.28 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e35fcee4-7124-4d8a-bc0c-3e4f5158a6b3")
-		)
-		(pin "2"
-			(uuid "a5d9f7c3-a577-40a0-b40b-d6516bc5c2c6")
-		)
-		(instances
-			(project "Digital_Board_Rev3"
-				(path "/961bce4d-0f15-4753-8332-e4f92c717c57/ef923231-80ab-48eb-9cf2-8f9d6c00185b"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 116.84 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "69f0b28f-8147-4c2c-9810-4fa5afd93796")
-		(property "Reference" "C4"
-			(at 119.761 59.7916 0)
+		(fields_autoplaced yes)
+		(uuid "596a2dcc-53e6-4b6f-990d-855caad9159c")
+		(property "Reference" "C2"
+			(at 110.49 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4101,7 +5159,71 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 119.761 62.103 0)
+			(at 107.315 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 107.6452 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 100nF 0402 25V+ X7R"
+			(at 106.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "RES-4003-100N"
+			(at 106.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 106.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 106.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100n"
+			(at 110.49 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4109,8 +5231,17 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 117.8052 64.77 0)
+		(property "Voltage" "25V+"
+			(at 110.49 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Material" "X7R"
+			(at 106.68 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4118,17 +5249,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 116.84 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 60.96 0)
+		(property "Tolerance" ""
+			(at 106.68 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,153 +5259,149 @@
 			)
 		)
 		(pin "2"
-			(uuid "5aad4dc2-ef3a-4599-afc8-ff455c9e991c")
+			(uuid "2be05058-a6fe-4c4f-a4ed-4ed67dfd771c")
 		)
 		(pin "1"
-			(uuid "639fe7f9-96b9-4311-9893-209f32047332")
+			(uuid "68365394-c08f-4d86-8c0c-3dad8602e2ec")
+		)
+		(instances
+			(project ""
+				(path "/961bce4d-0f15-4753-8332-e4f92c717c57/ef923231-80ab-48eb-9cf2-8f9d6c00185b"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#gplm:cap/RES-4003-100N")
+		(at 132.08 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63d298a4-116f-4e3b-935a-2fd4ac5fae75")
+		(property "Reference" "C4"
+			(at 135.89 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 132.715 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 133.0452 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 100nF 0402 25V+ X7R"
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "RES-4003-100N"
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100n"
+			(at 135.89 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "25V+"
+			(at 135.89 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Material" "X7R"
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "04d0c323-1399-499c-9436-ff272a8932da")
+		)
+		(pin "1"
+			(uuid "40f2ee01-f7b7-4f26-b86b-bae24ac350ce")
 		)
 		(instances
 			(project "Digital_Board_Rev3"
 				(path "/961bce4d-0f15-4753-8332-e4f92c717c57/ef923231-80ab-48eb-9cf2-8f9d6c00185b"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 137.16 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "764ec5ca-d22a-4e8d-8b8c-6c8d56b3fcfc")
-		(property "Reference" "C7"
-			(at 140.081 59.7916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 140.081 62.103 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 138.1252 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9b3d868-5e96-48e1-b64a-21c810ca1981")
-		)
-		(pin "2"
-			(uuid "889a548c-01b6-40bd-9c35-53a01c725bba")
-		)
-		(instances
-			(project "Digital_Board_Rev3"
-				(path "/961bce4d-0f15-4753-8332-e4f92c717c57/ef923231-80ab-48eb-9cf2-8f9d6c00185b"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 127 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "85066719-1699-4cc9-8cd9-3c0fa42663e4")
-		(property "Reference" "C6"
-			(at 129.921 59.7916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 129.921 62.103 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 127.9652 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9b0540b5-9fb9-477b-b7a2-d07458df8a45")
-		)
-		(pin "1"
-			(uuid "87a6010c-1660-4904-a6d6-be3dbb6f32cb")
-		)
-		(instances
-			(project "Digital_Board_Rev3"
-				(path "/961bce4d-0f15-4753-8332-e4f92c717c57/ef923231-80ab-48eb-9cf2-8f9d6c00185b"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4655,16 +5773,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 199.39 60.96 0)
+		(lib_id "#gplm:cap/RES-4003-100N")
+		(at 119.38 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "aeb7f74a-d2eb-4c7a-a2c5-8c4b304e9448")
-		(property "Reference" "C9"
-			(at 202.311 59.7916 0)
+		(fields_autoplaced yes)
+		(uuid "992a4c1a-b1c4-451e-ae48-8c937bcbf33f")
+		(property "Reference" "C3"
+			(at 123.19 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4672,8 +5791,72 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
-			(at 202.311 62.103 0)
+		(property "Value" "100n"
+			(at 120.015 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 120.3452 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 100nF 0402 25V+ X7R"
+			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "RES-4003-100N"
+			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100n"
+			(at 123.19 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4681,8 +5864,17 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 200.3552 64.77 0)
+		(property "Voltage" "25V+"
+			(at 123.19 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Material" "X7R"
+			(at 119.38 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4690,17 +5882,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 199.39 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 199.39 60.96 0)
+		(property "Tolerance" ""
+			(at 119.38 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4709,84 +5892,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "04d773fa-8447-415a-9929-ed2f26878df9")
+			(uuid "72cf17ae-8f5f-416e-a760-55d67e12443e")
 		)
 		(pin "1"
-			(uuid "2a68987f-3825-4313-ab91-0b8e8aba9c31")
+			(uuid "8fb10441-1647-4a40-b2ef-fbb0635fabe6")
 		)
 		(instances
 			(project "Digital_Board_Rev3"
 				(path "/961bce4d-0f15-4753-8332-e4f92c717c57/ef923231-80ab-48eb-9cf2-8f9d6c00185b"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 106.68 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b8cbc25d-4797-4839-a011-de0a5be95947")
-		(property "Reference" "C1"
-			(at 109.601 59.7916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 109.601 62.103 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 107.6452 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "70f1bc69-c23d-4121-8b97-d86a2375be20")
-		)
-		(pin "1"
-			(uuid "5677c2a9-3daf-46c7-af20-5e94ccf7eea1")
-		)
-		(instances
-			(project "Digital_Board_Rev3"
-				(path "/961bce4d-0f15-4753-8332-e4f92c717c57/ef923231-80ab-48eb-9cf2-8f9d6c00185b"
-					(reference "C1")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4858,77 +5972,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 157.48 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d9e70f35-7bce-49f9-9471-2965a0fde60d")
-		(property "Reference" "C27"
-			(at 160.401 59.7916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 160.401 62.103 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 158.4452 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "22962a11-a046-45d3-b49d-c317cc9bc69a")
-		)
-		(pin "1"
-			(uuid "fc4709cf-4dd1-4f34-9e4f-96a04ec8e3e5")
-		)
-		(instances
-			(project "Digital_Board_Rev3"
-				(path "/961bce4d-0f15-4753-8332-e4f92c717c57/ef923231-80ab-48eb-9cf2-8f9d6c00185b"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Digital-Board-Rev-2-rescue:+3.3V-power")
-		(at 106.68 55.88 0)
+		(at 93.98 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4936,7 +5981,7 @@
 		(dnp no)
 		(uuid "e865b871-39f8-43de-b560-ab61025cd129")
 		(property "Reference" "#PWR010"
-			(at 106.68 59.69 0)
+			(at 93.98 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4945,7 +5990,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 107.061 51.4858 0)
+			(at 94.361 51.4858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4953,7 +5998,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 55.88 0)
+			(at 93.98 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4962,7 +6007,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 55.88 0)
+			(at 93.98 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4971,7 +6016,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 55.88 0)
+			(at 93.98 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4986,6 +6031,140 @@
 			(project "Digital_Board_Rev3"
 				(path "/961bce4d-0f15-4753-8332-e4f92c717c57/ef923231-80ab-48eb-9cf2-8f9d6c00185b"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#gplm:cap/RES-4007-02U2")
+		(at 93.98 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f28e6792-e644-4233-b057-89eaac8b51f7")
+		(property "Reference" "C1"
+			(at 97.79 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 94.615 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 94.9452 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 2.2uF 0603 10V+ X7R"
+			(at 93.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "RES-4007-02U2"
+			(at 93.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 93.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 93.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "2.2u"
+			(at 97.79 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "10V+"
+			(at 97.79 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Material" "X7R"
+			(at 93.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 93.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9823c502-d12a-48d9-8fde-91d56cb4a198")
+		)
+		(pin "2"
+			(uuid "6636d152-4848-4fcd-86fe-26daeb1e3e3d")
+		)
+		(instances
+			(project ""
+				(path "/961bce4d-0f15-4753-8332-e4f92c717c57/ef923231-80ab-48eb-9cf2-8f9d6c00185b"
+					(reference "C1")
 					(unit 1)
 				)
 			)

@@ -4384,7 +4384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000604d1ed8")
-		(property "Reference" "U26A"
+		(property "Reference" "U26A1"
 			(at 157.48 33.655 0)
 			(effects
 				(font
@@ -4457,7 +4457,7 @@
 		(instances
 			(project "Digital Board Rev 2"
 				(path "/961bce4d-0f15-4753-8332-e4f92c717c57/00000000-0000-0000-0000-00006049dce2"
-					(reference "U26A")
+					(reference "U26A1")
 					(unit 1)
 				)
 			)
@@ -4605,7 +4605,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000604da598")
-		(property "Reference" "U26B"
+		(property "Reference" "U26B1"
 			(at 157.48 75.565 0)
 			(effects
 				(font
@@ -4678,7 +4678,7 @@
 		(instances
 			(project "Digital Board Rev 2"
 				(path "/961bce4d-0f15-4753-8332-e4f92c717c57/00000000-0000-0000-0000-00006049dce2"
-					(reference "U26B")
+					(reference "U26B1")
 					(unit 2)
 				)
 			)
