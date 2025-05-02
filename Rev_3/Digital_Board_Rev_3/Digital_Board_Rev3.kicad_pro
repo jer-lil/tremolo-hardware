@@ -691,7 +691,7 @@
     ],
     [
       "ed4c9afa-2003-4bc5-b9ee-52d2811e27e1",
-      "Input Board Analog"
+      "Input Jacks"
     ],
     [
       "00000000-0000-0000-0000-0000603b89d8",
@@ -703,7 +703,7 @@
     ],
     [
       "15da2759-25cf-4cd6-b7c8-5fa043d1353e",
-      "Output Board"
+      "Output Jacks"
     ],
     [
       "c8cf1f6b-4522-4ddd-bacb-5b3c5102b4a4",
@@ -718,8 +718,20 @@
       "MCU"
     ],
     [
+      "2bc06849-af50-42de-be81-f8ee0456bd0d",
+      "Analog"
+    ],
+    [
       "17b17bd2-728c-4139-8bc2-2d7df423e492",
       "ENVELOPE"
+    ],
+    [
+      "9f0320fc-59df-4670-aadd-f2e07e345163",
+      "Relay & Mute"
+    ],
+    [
+      "bce0c585-fb91-4f26-a209-5ab907bd8c37",
+      "TAP & MIDI"
     ]
   ],
   "text_variables": {}

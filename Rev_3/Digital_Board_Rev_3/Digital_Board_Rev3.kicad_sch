@@ -930,7 +930,7 @@
 		)
 	)
 	(sheet
-		(at 254 25.4)
+		(at 304.8 38.1)
 		(size 25.4 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -945,8 +945,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "15da2759-25cf-4cd6-b7c8-5fa043d1353e")
-		(property "Sheetname" "Output Board"
-			(at 254 24.6884 0)
+		(property "Sheetname" "Output Jacks"
+			(at 304.8 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -955,7 +955,7 @@
 			)
 		)
 		(property "Sheetfile" "OutputBoard.kicad_sch"
-			(at 254 76.7846 0)
+			(at 304.8 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -972,7 +972,7 @@
 		)
 	)
 	(sheet
-		(at 177.8 76.2)
+		(at 254 127)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -988,7 +988,7 @@
 		)
 		(uuid "17b17bd2-728c-4139-8bc2-2d7df423e492")
 		(property "Sheetname" "ENVELOPE"
-			(at 177.8 75.4884 0)
+			(at 254 126.2884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -997,7 +997,49 @@
 			)
 		)
 		(property "Sheetfile" "Envelope.kicad_sch"
-			(at 177.8 102.1846 0)
+			(at 254 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Digital_Board_Rev3"
+				(path "/961bce4d-0f15-4753-8332-e4f92c717c57"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 38.1)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2bc06849-af50-42de-be81-f8ee0456bd0d")
+		(property "Sheetname" "Analog"
+			(at 165.1 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Analog.kicad_sch"
+			(at 165.1 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1051,6 +1093,90 @@
 			(project "Digital_Board_Rev3"
 				(path "/961bce4d-0f15-4753-8332-e4f92c717c57"
 					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 38.1)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9f0320fc-59df-4670-aadd-f2e07e345163")
+		(property "Sheetname" "Relay & Mute"
+			(at 241.3 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Relay_Mute.kicad_sch"
+			(at 241.3 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Digital_Board_Rev3"
+				(path "/961bce4d-0f15-4753-8332-e4f92c717c57"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 304.8 114.3)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bce0c585-fb91-4f26-a209-5ab907bd8c37")
+		(property "Sheetname" "TAP & MIDI"
+			(at 304.8 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Tap_MIDI.kicad_sch"
+			(at 304.8 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Digital_Board_Rev3"
+				(path "/961bce4d-0f15-4753-8332-e4f92c717c57"
+					(page "18")
 				)
 			)
 		)
@@ -1113,7 +1239,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "ed4c9afa-2003-4bc5-b9ee-52d2811e27e1")
-		(property "Sheetname" "Input Board Analog"
+		(property "Sheetname" "Input Jacks"
 			(at 101.6 37.3884 0)
 			(effects
 				(font
@@ -1140,7 +1266,7 @@
 		)
 	)
 	(sheet
-		(at 254 127)
+		(at 254 161.29)
 		(size 25.4 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1156,7 +1282,7 @@
 		)
 		(uuid "ef6aa7b3-ec38-464b-865b-a9816584afc5")
 		(property "Sheetname" "Optos and LEDs"
-			(at 254 126.2884 0)
+			(at 254 160.5784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1165,7 +1291,7 @@
 			)
 		)
 		(property "Sheetfile" "Optos_LEDs.kicad_sch"
-			(at 254 155.5246 0)
+			(at 254 189.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1174,7 +1300,7 @@
 			)
 		)
 		(pin "R1" input
-			(at 254 142.24 180)
+			(at 254 176.53 180)
 			(uuid "633dba53-1d99-4892-ac02-7f0b9c3e98a6")
 			(effects
 				(font
@@ -1184,7 +1310,7 @@
 			)
 		)
 		(pin "G1" input
-			(at 254 139.7 180)
+			(at 254 173.99 180)
 			(uuid "9dbdf6fe-a118-44bf-afd3-9fee4448bf26")
 			(effects
 				(font
@@ -1194,7 +1320,7 @@
 			)
 		)
 		(pin "B1" input
-			(at 254 137.16 180)
+			(at 254 171.45 180)
 			(uuid "30d3e916-ad46-425c-869e-ef40d30b9e81")
 			(effects
 				(font
@@ -1204,7 +1330,7 @@
 			)
 		)
 		(pin "R2" input
-			(at 254 134.62 180)
+			(at 254 168.91 180)
 			(uuid "ee742479-e1e9-4445-ae0e-97945eee2459")
 			(effects
 				(font
@@ -1214,7 +1340,7 @@
 			)
 		)
 		(pin "G2" input
-			(at 254 132.08 180)
+			(at 254 166.37 180)
 			(uuid "d918a5ea-6a35-4d04-aa4a-ae832b56bec4")
 			(effects
 				(font
@@ -1224,7 +1350,7 @@
 			)
 		)
 		(pin "B2" input
-			(at 254 129.54 180)
+			(at 254 163.83 180)
 			(uuid "fcb27b57-5413-467d-b8ca-d4eb03d3f706")
 			(effects
 				(font
