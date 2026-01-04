@@ -1029,7 +1029,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2bc06849-af50-42de-be81-f8ee0456bd0d")
-		(property "Sheetname" "Analog"
+		(property "Sheetname" "Analog Board Connectors"
 			(at 165.1 37.3884 0)
 			(effects
 				(font

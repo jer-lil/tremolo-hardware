@@ -104,6 +104,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -719,7 +720,7 @@
     ],
     [
       "2bc06849-af50-42de-be81-f8ee0456bd0d",
-      "Analog"
+      "Analog Board Connectors"
     ],
     [
       "17b17bd2-728c-4139-8bc2-2d7df423e492",
